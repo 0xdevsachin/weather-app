@@ -6,12 +6,12 @@ import Temp from './temp'
 
 function App(){
 
-const KEY = 'e43c2712bc66c1f08e9850200ff3e8d1';
+const KEY = 'YOUR_API_KEY';
 
 
 const [data, setdata] = useState({});
 const [query, setquery] = useState('');
-const [city, setCity] = useState('London');
+const [city, setCity] = useState('London'); //Default City
 
 
 const input_query = (e) =>{
