@@ -1,0 +1,114 @@
+    .mainbox {
+        padding: 20px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .name {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        color: white;
+    }
+    
+    .name h1 {
+        font-size: 2.6rem;
+    }
+    
+    .name p {
+        font-size: 2rem;
+    }
+    
+    @media (max-width:450px) {
+        .name h1 {
+            font-size: 25px;
+        }
+        .name p {
+            font-size: 18px;
+        }
+    }
+    
+    .search-box {
+        width: 50%;
+        border-radius: 20px;
+        border: none;
+        padding: 4px 4px 4px 30px;
+        height: 50px;
+    }
+    
+    input:focus {
+        outline: none;
+        box-shadow: 0px 0px 10px 1px rgb(223, 219, 219);
+    }
+    
+    .search-btn {
+        height: 50px;
+        width: 100px;
+        margin-left: 10px;
+        padding: 4px;
+        border-radius: 20px;
+        background-color: blueviolet;
+        color: white;
+    }
+    
+    .temprature {
+        margin-top: 40px;
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .temprature div {
+        margin-top: 40px;
+    }
+    
+    .data h1 {
+        font-size: 4rem;
+    }
+    
+    .data p {
+        font-size: 3rem;
+    }
+    
+    .details {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.267);
+        text-align: center;
+        padding-top: 20px;
+        border-radius: 10px;
+    }
+    
+    .details div {
+        flex-grow: 1;
+        width: 33%;
+        height: 100px;
+    }
+    
+    .errorbox {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .econtent {
+        color: white;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.267);
+    }
+    
+    @media (max-width:400px) {
+        .econtent h1 {
+            font-size: 15px;
+            padding: 0px;
+        }
+    }
