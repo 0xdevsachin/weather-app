@@ -10,7 +10,7 @@ First Clone this Repository
 ```shell
 $ git clone https://github.com/sachin320/weather-app.git
 ```
-Install dependencies. Make sure you have `noejs` already installed in your system
+Install dependencies. Make sure you have `nodejs` already installed in your system
 
 ```shell 
 $ npm install 
@@ -22,4 +22,4 @@ After adding API and Installing dependencies run the App
 $ npm start
 ```
 
-Now App is runnign on http://localhost:3000
+Now Your App is running on http://localhost:3000
