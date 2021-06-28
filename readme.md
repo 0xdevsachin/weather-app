@@ -22,4 +22,4 @@ After adding API and Installing dependencies run the App
 $ npm start
 ```
 
-Now Your App is running on http://localhost:3000
+Now Your Weather App is running on http://localhost:3000
